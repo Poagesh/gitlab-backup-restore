@@ -33,7 +33,7 @@ This repository contains platform-specific scripts for backing up and restoring 
 1. Navigate to the `linux` directory.
 2. Run the backup script:
    ```bash
-   sudo bash gitlab-backup.sh
+   sudo bash gitlab-backup.bash
    ```
 
 3. Backup files will be stored in `/var/opt/gitlab/backups` by default.
@@ -58,7 +58,7 @@ This repository contains platform-specific scripts for backing up and restoring 
 1. Place your backup `.tar` file in `/var/opt/gitlab/backups`.
 2. Run:
    ```bash
-   sudo bash gitlab-restore.sh
+   sudo bash gitlab-restore.bash
    ```
 
 3. The script will restore GitLab to the specified backup version and reconfigure services.
